@@ -1,0 +1,31 @@
+.unslider-header-prev, .unslider-header-next{
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 4em;
+	padding: 0px 20px;
+	background-color: rgba(0,0,0,0.9); 
+	color: #fff;
+	cursor: pointer;
+}
+
+.unslider-header-prev{
+	left: 10px;
+} 
+
+.unslider-header-next{
+	right: 10px;
+}
+
+.item{
+	position: relative;
+}
+
+.layer-unslider-content{
+	display: block;
+	position: absolute;
+	top: 10%;
+	padding: 1em 2em;
+	opacity: 0;
+}

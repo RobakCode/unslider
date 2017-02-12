@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "install": "npm-git install"
+  }
+  "gitDependencies": {
+    "public-package-name": "https://github.com/RobakCode/unslider-enlargement.git"
+  }
+}
